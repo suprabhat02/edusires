@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const themeToggleBtn = document.querySelector("#theme-toggle-btn");
+  const themeToggleBtn = document.querySelector(".toggleThemeButton");
 
   // Check saved theme in localStorage
   const savedTheme = localStorage.getItem("theme");
